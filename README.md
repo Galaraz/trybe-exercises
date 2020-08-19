@@ -1,2 +1,2 @@
 # trybe-exercises
-Exercicios de git praticados na primeiras semana na Trybe
+Exercicios de git praticados nas primeiras semana na Trybe
