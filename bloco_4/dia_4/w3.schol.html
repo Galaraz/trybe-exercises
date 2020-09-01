@@ -43,13 +43,13 @@ document.getElementById("curso_nome").innerHTML = curso.nome
 // Agora é a sua vez!!!
 
 // Mostre a descrição do módulo Internet
-document.getElementById("internet_descricao").innerHTML = curso.internet_descricao
+document.getElementById("internet_descricao").innerHTML = curso.modulos.internet.descricao
 
 // Mostre qual é a última semana do módulo HTML
-document.getElementById("html_ultima_semana").innerHTML = curso
+document.getElementById("html_ultima_semana").innerHTML = curso.modulos.html.semana
 
 // Mostre qual é o tipo do módulo Shell
-document.getElementById("shell_tipo").innerHTML = curso.modulos['tipo']
+document.getElementById("shell_tipo").innerHTML = curso.modulos.shell.tipo
 </script>
 
 </body>
