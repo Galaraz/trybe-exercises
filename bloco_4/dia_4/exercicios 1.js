@@ -4,21 +4,10 @@ let info = {
     nota: "Namorada do personagem principal nos quadrinhos do Pato Donald",
   };
 
+ // jeito 1
   console.log("Bem Vinda, " + info.personagem);
 
 
+ //jeito 2
 
-info.recorrente = "sim";
-
-
-console.log(info);
-
-
-  for (let key in info) {
-      
-        
-         console.log(key);
-         console.log(info[key]);
-          
-      }
- 
+console.log("Bem-Vinda" + info['personagem']);
