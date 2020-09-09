@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 01
+      const elementH1 = document.createEvent("h1");
+      elementH1.innerHTML = "Exercicios 5.2 - Javascript DOM";
+      document.body.appendChild(elementH1);
+      // 02
+      const elementDivMain = document.createEvent("div");
+      elementDivMain.className = "main-content";
+      document.body.appendChild(elementDivMain);
+      // 03
+      const elementCent = document.createEvent("div");
+      elementCent.className = "center-content";
+      document.body.appendChild(elementCent);
+      //04
+      const paragrafo = document.createEvent("p");
+      paragrafo.innerHTML = "Texto show";
+      elementCent.appendChild(paragrafo);
+      //05
+      const elementDivLeft = document.createEvent("div");
+      elementDivLeft.className = "left-content";
+      elementDivMain.appendChild(elementDivLeft);
+      //06
+      const elementDivRigth = document.createEvent("div");
+      elementDivRigth.className = "right-content";
+      elementDivMain.appendChild(elementDivRigth);
+      //07
+      const elementImg = document.createEvent('img');
+      elementImg.className = 'small-image';
+      elementImg.src= 'http://picsum.photos/200';
+      elementDivLeft.appendChild(elementImg);
+      //08
+      const elementUl
+      //09
+
+      //01
+      //02
+      //03
+      //04
+      //05
+      //06
+    </script>
+  </body>
+</html>
