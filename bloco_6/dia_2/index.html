@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <br>
+<form>
+
+    <fieldset class="entrada">
+        <legend>Dados Pessoais</legend>
+    <div>
+        <label>Seu Nome:</label>
+        <input type="text" placeholder="Nome" id="nome" maxlength="40"/>
+      </div>
+
+      <div>
+        <label>Email:</label> 
+        <input type="email" placeholder="E-mail" id="email" maxlength="50" />
+      </div>
+
+      <div>
+        <label>CPF :</label>
+        <input type="text" placeholder="CPF" id="CPF" maxlength="11"/>
+      </div>
+
+      <div>
+        <label>Endereço :</label>
+        <input type="text" placeholder="Endereço" id="Endereço" maxlength="200"/>
+      </div>
+
+      <div>
+        <label>Cidade:</label>
+        <input type="text" placeholder="Cidade" id="Cidade"maxlength="28" />
+      </div>
+
+      <div>
+        <label for="">Estado:</label>
+
+        <select name="estado" id="estado">
+          <option value="">Selecione...</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="SP">São Paulo</option>
+        </select>
+      </div>
+
+      <div>
+          <label>Tipo de Moradia</label>
+
+          <label for="casa">Casa</label>
+          <input type="radio" placeholder="casa " id="casa" />
+          <label for="apt">Apartamento</label>
+          <input type="radio" name="apt" id="apt" />
+       </div>
+    
+    
+    </div>
+  </fieldset>
+  <br>
+    <fieldset>
+    <legend maxlength=>Dados Profissionais</legend>
+    <label>Resumo do curriculo:</label>
+    <div>
+    <textarea></textarea>
+   </div>
+
+   <div>
+    <label>Cargo:</label>
+    <input type="text" placeholder="Nome" id="nome" maxlength="40"/>
+  </div>
+
+  <div>
+    <label>Descrição do Cargo:</label> 
+    <input type="email" placeholder="E-mail" id="email" maxlength="50" />
+  </div>
+
+  <div>
+    <label>Data de inicio:</label>
+    <input type="text" placeholder="CPF" id="CPF" maxlength="11"/>
+  </div>
+</fieldset>
+   
+  <div class="field">
+    <div class="control">
+      <button class="button is-primary" type="submit">Enviar</button>
+    </div>
+  </div>
+</form> 
+
+
+
+
+</body>
+</html>
