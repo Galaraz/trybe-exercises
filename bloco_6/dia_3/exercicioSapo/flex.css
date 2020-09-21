@@ -39,9 +39,39 @@ sapo1 */
   justify-content: space-around;
   align-items:flex-end; 
   }
-
   /* sapo8 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  }
   /* sapo9 */
+  #pond {
+    display: flex;
+  flex-direction:column;
+  }
   /* sapo10 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content: flex-end;
+  }
   /* sapo11 */
+#pond {
+    display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  }
   /* sapo12 */
+  #pond {
+    display: flex;
+  flex-direction:column-reverse;
+  justify-content:space-between;
+  }
+ 
+  /* sapo13 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content:center;
+  align-items:flex-end;
+  }
