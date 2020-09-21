@@ -1,4 +1,47 @@
+/* 
+sapo1 */
 #pond {
     display: flex;
   justify-content: flex-end;
   }
+
+  /* sapo2 */
+  #pond {
+    display: flex;
+  justify-content: center;
+  }
+/* sapo3 */
+  #pond {
+    display: flex;
+  justify-content:space-around;
+  }
+
+ /*  sapo4 */
+ #pond {
+    display: flex;
+  justify-content: space-between;
+  }
+
+  /* sapo5 */ 
+  #pond {
+    display: flex;
+  align-items:flex-end; 
+  }
+  /* sapo6 */
+  #pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  /* sapo7 */
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  align-items:flex-end; 
+  }
+
+  /* sapo8 */
+  /* sapo9 */
+  /* sapo10 */
+  /* sapo11 */
+  /* sapo12 */
