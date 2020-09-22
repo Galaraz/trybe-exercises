@@ -1,0 +1,77 @@
+/* 
+sapo1 */
+#pond {
+    display: flex;
+  justify-content: flex-end;
+  }
+
+  /* sapo2 */
+  #pond {
+    display: flex;
+  justify-content: center;
+  }
+/* sapo3 */
+  #pond {
+    display: flex;
+  justify-content:space-around;
+  }
+
+ /*  sapo4 */
+ #pond {
+    display: flex;
+  justify-content: space-between;
+  }
+
+  /* sapo5 */ 
+  #pond {
+    display: flex;
+  align-items:flex-end; 
+  }
+  /* sapo6 */
+  #pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  /* sapo7 */
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  align-items:flex-end; 
+  }
+  /* sapo8 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  }
+  /* sapo9 */
+  #pond {
+    display: flex;
+  flex-direction:column;
+  }
+  /* sapo10 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content: flex-end;
+  }
+  /* sapo11 */
+#pond {
+    display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  }
+  /* sapo12 */
+  #pond {
+    display: flex;
+  flex-direction:column-reverse;
+  justify-content:space-between;
+  }
+ 
+  /* sapo13 */
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content:center;
+  align-items:flex-end;
+  }
