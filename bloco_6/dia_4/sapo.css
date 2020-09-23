@@ -1,0 +1,80 @@
+/* sapo 14 */
+#pond {
+    display: flex;
+  }
+  
+  .yellow {
+  order:1;
+  }
+/* sapo 15 */
+#pond {
+    display: flex;
+  }
+  
+  .red {
+  order:-1;
+  }
+/* sapo 16 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  align-self:flex-end;
+  }
+/* sapo 17 */
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  order:1;
+  align-self:flex-end;
+  }
+/* sapo 18 */
+#pond {
+    display: flex;
+  flex-wrap:wrap;
+  }
+/* sapo 19 */
+#pond {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+  }
+/* sapo 20 */
+#pond {
+    display: flex;
+  flex-flow: column wrap;
+  }
+
+/* sapo 21 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content:flex-start;
+  }
+/* sapo 22 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content:flex-end;
+  }
+/* sapo 23 */
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  }
+/* sapo 24 */
+
+#pond {
+    display: flex;
+  justify-content:center;
+  flex-flow:column-reverse wrap-reverse;
+  order:1,2;
+  align-content:space-between
+  }
