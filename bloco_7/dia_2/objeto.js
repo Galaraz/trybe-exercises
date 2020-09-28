@@ -18,3 +18,5 @@ const customer1 = {
   console.log(customer2);
   customer2['lastName'] = 'Silva';
   console.log(customer2);
+
+  /* formas de inserir intens ao objeto */
