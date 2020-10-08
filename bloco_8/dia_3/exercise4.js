@@ -1,4 +1,4 @@
-/* Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais (terminam com um ponto). */
+/* Encontre o livro com o maior nome. */
 
 const assert = require('assert');
 
@@ -65,12 +65,24 @@ const books = [
   },
 ];
 
-const expected_result = 'O Senhor dos Anéis';
+const expected_result = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin'
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991
+};
 
-function authorWith3DotsOnName() {
-   books.find(book => (
-    book.author.name.split(' ').filter(word => word.endsWith('.')).length === 3
-  )).name;
+function longestNamedBook() {
+  return books.reduce((biggestBook, currentBook) => {
+    if (currentBook.name.length > biggestBook.name.length) {
+      return currentBook;
+    }
+    return biggestBook;
+  });
 }
 
-assert.deepEqual(authorWith3DotsOnName(), expected_result);
+assert.deepEqual(longestNamedBook(), expected_result);

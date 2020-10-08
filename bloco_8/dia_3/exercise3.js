@@ -1,5 +1,4 @@
-/* Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais (terminam com um ponto). */
-
+/* Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados. */
 const assert = require('assert');
 
 const books = [
@@ -65,12 +64,14 @@ const books = [
   },
 ];
 
-const expected_result = 'O Senhor dos Anéis';
+const expected_result = 43;
 
-function authorWith3DotsOnName() {
-   books.find(book => (
-    book.author.name.split(' ').filter(word => word.endsWith('.')).length === 3
-  )).name;
+function averageAge() {
+  const numberOfBooks = books.length;
+  const sumOfAges = books.reduce((sum, book) => (
+    sum + (book.releaseYear - book.author.birthYear)
+  ), 0)
+  return sumOfAges / numberOfBooks;
 }
 
-assert.deepEqual(authorWith3DotsOnName(), expected_result);
+assert.equal(averageAge(), expected_result);
