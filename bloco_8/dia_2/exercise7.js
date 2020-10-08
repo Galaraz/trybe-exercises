@@ -68,7 +68,7 @@ const books = [
 const expected_result = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName() {
-  return books.find(book => (
+   books.find(book => (
     book.author.name.split(' ').filter(word => word.endsWith('.')).length === 3
   )).name;
 }
