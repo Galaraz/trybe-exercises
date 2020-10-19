@@ -1,11 +1,13 @@
 /* Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos. Ou seja:
-Dica: use parâmetro rest. */
+Dica: use parâmetro rest. 
+Essa funçao soma os valores em uma arry*/
 
 const assert = require('assert')
 
 const sum = (...numbers) => {
  let total = 0
  for (number of numbers) total += number
+ console.log(numbers);
  return total
 }
 
